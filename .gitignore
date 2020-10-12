@@ -21,3 +21,29 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.idea/
+        build.zip
+        public/assets/
+        public/sys/about.html
+        public/sys/blog.html
+        public/sys/contact-us-style-3.html
+        public/sys/css/
+        public/sys/fonts/
+        public/sys/img/
+        public/sys/js/ajax-mail.js
+        public/sys/js/bootstrap.min.js
+        public/sys/js/imagesloaded.pkgd.min.js
+        public/sys/js/isotope.pkgd.min.js
+        public/sys/js/jquery.magnific-popup.min.js
+        public/sys/js/jquery.meanmenu.js
+        public/sys/js/main.js
+        public/sys/js/owl.carousel.min.js
+        public/sys/js/plugins.js
+        public/sys/js/vendor/
+        public/sys/mail.php
+        public/sys/portfolio.html
+        public/sys/pricing.html
+        public/sys/service.html
+        public/sys/style.css
+        src/img/
