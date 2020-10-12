@@ -55,7 +55,10 @@ const Header=()=>{
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link " to="/portfolio" tabIndex="-1"
-                                             aria-disabled="true">portfolio</NavLink>
+                                             aria-disabled="true">portfolio<i className="fa fa-angle-down"></i></NavLink>
+                                    <ul className="submenu">
+                                        <li><NavLink to="/portfolio-details">portfolio details</NavLink></li>
+                                    </ul>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/blog">blog</NavLink>

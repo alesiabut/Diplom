@@ -11,7 +11,7 @@ import img8 from "../img/chb3.JPG";
 import img9 from "../img/chb6.JPG";
 import img10 from "../img/T2.JPG";
 import img11 from "../img/macro2.JPG";
-import img12 from "../img/travel6.JPG";
+
 
 
 const Portfolio =()=>{
@@ -20,10 +20,10 @@ const Portfolio =()=>{
             <div className="container mb-15">
                 <div className="portfolio-menu">
                     <button className="active" data-filter="*">all</button>
-                    <button data-filter=".cat1">Travel</button>
-                    <button data-filter=".cat2">Still Life</button>
-                    <button data-filter=".cat3">Black&White</button>
-                    <button data-filter=".cat3">MacroLife</button>
+                    <NavLink to="/portfolio-details"><button data-filter=".cat1">Travel</button></NavLink>
+                    <NavLink to="/portfolio-details"><button data-filter=".cat2">Still Life</button></NavLink>
+                    <NavLink to="/portfolio-details"><button data-filter=".cat3">Black&White</button></NavLink>
+                    <NavLink to="/portfolio-details"><button data-filter=".cat3">MacroLife</button></NavLink>
                 </div>
                 <div className="row">
                     <div className="grid">

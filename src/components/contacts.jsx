@@ -24,7 +24,8 @@ class Contact extends React.Component{
 
 
     render() {
-       return ( <div className="container-fluid mt-20 mb-20 ">
+       return (
+           <div className="container-fluid mt-20 mb-20 ">
             <div className="container">
 
                 <div className="row">
@@ -41,9 +42,16 @@ class Contact extends React.Component{
                         </div>
 
 
-                        <form id="contact-form" method="post" action="sendMail.php" role="form" onSubmit={this.sendMail}>
+                        <form id="contact-form" method="post" action="php/sendMail.php" role="form" onSubmit={this.sendMail}>
 
-                            <div className="messages"></div>
+                            <div className="row">
+                                <div className="col">
+                                    <input type="text" className="form-control" placeholder="Name"/>
+                                </div>
+                                <div className="col">
+                                    <input type="text" className="form-control" placeholder="Lastname"/>
+                                </div>
+                            </div>
 
                             <div className="controls">
                                 <div className="row">

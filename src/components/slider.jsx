@@ -7,6 +7,7 @@ import {NavLink} from "react-router-dom";
 
 const Slider = ()=>{
     return(
+        <div className="container-fluid">
         <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
 
             <div className="carousel-inner">
@@ -43,6 +44,7 @@ const Slider = ()=>{
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="sr-only">Next</span>
             </a>
+        </div>
         </div>
     );
 }

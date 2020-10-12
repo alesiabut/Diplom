@@ -6,6 +6,7 @@ import img3 from '../img/chb6.JPG'
 import img4 from '../img/chb1.JPG'
 import img5 from '../img/P1.jpg'
 import img6 from '../img/P2.JPG'
+import {NavLink} from "react-router-dom";
 
 class SimpleSlider extends React.Component {
     render() {
@@ -36,7 +37,7 @@ class SimpleSlider extends React.Component {
                             <div className="post-info">
 									<span className="post-author">
 										<i className="fa fa-user" aria-hidden="true"></i>
-										<a href="#">jams</a>
+										<a href="#">OLGA</a>
 									</span>
                                 <span className="post-author">
 										<i className="fa fa-calendar"></i>February 2, 2017
@@ -47,10 +48,10 @@ class SimpleSlider extends React.Component {
                             </div>
                             <div className="post-content">
                                 <h2 className="semi-title">
-                                    <a href="blog-details.html">Howe to grow business plan</a></h2>
+                                    <a href="blog-details.html">Howe to grow travel plan</a></h2>
                                 <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                                     tincidunt ut </p>
-                                <a href="blog-details.html">read more</a>
+                                <NavLink to="/blog">read more history</NavLink>
                             </div>
                         </div>
                         <div className="col-sm-12 carousel-item  slick-slide">
@@ -58,7 +59,7 @@ class SimpleSlider extends React.Component {
                             <div className="post-info">
 									<span className="post-author">
 										<i className="fa fa-user" aria-hidden="true"></i>
-										<a href="#">jams</a>
+										<a href="#">OLGA</a>
 									</span>
                                 <span className="post-author">
 										<i className="fa fa-calendar"></i>January 1, 2017
@@ -72,7 +73,7 @@ class SimpleSlider extends React.Component {
                                     <a href="blog-details.html">Legentis in iis qui facit eorum claritatem</a></h2>
                                 <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                                     tincidunt ut </p>
-                                <a href="blog-details.html">read more</a>
+                                <NavLink to="/blog">read more history</NavLink>
                             </div>
                         </div>
                         <div className=" col-sm-12 carousel-item  slick-slide">
@@ -80,7 +81,7 @@ class SimpleSlider extends React.Component {
                             <div className="post-info">
 									<span className="post-author">
 										<i className="fa fa-user" aria-hidden="true"></i>
-										<a href="#">jams</a>
+										<a href="#">OLGA</a>
 									</span>
                                 <span className="post-author">
 										<i className="fa fa-calendar"></i>December 22, 2016
@@ -94,7 +95,7 @@ class SimpleSlider extends React.Component {
                                     <a href="blog-details.html">Dolore eu feugiat nulla facilisis</a></h2>
                                 <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                                     tincidunt ut </p>
-                                <a href="blog-details.html">read more</a>
+                                <NavLink to="/blog">read more history</NavLink>
                             </div>
                         </div>
                         <div className=" col-sm-12 carousel-item  slick-slide">
@@ -102,7 +103,7 @@ class SimpleSlider extends React.Component {
                             <div className="post-info">
 									<span className="post-author">
 										<i className="fa fa-user" aria-hidden="true"></i>
-										<a href="#">jams</a>
+										<a href="#">OLGA</a>
 									</span>
                                 <span className="post-author">
 										<i className="fa fa-calendar"></i>December 22, 2016
@@ -116,7 +117,7 @@ class SimpleSlider extends React.Component {
                                     <a href="blog-details.html">Guod mazim placerat facer possim assum</a></h2>
                                 <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                                     tincidunt ut </p>
-                                <a href="blog-details.html">read more</a>
+                                <NavLink to="/blog">read more history</NavLink>
                             </div>
                         </div>
                         <div className=" col-sm-12  carousel-item slick-slide">
@@ -124,7 +125,7 @@ class SimpleSlider extends React.Component {
                             <div className="post-info">
 									<span className="post-author">
 										<i className="fa fa-user" aria-hidden="true"></i>
-										<a href="#">jams</a>
+										<a href="#">OLGA</a>
 									</span>
                                 <span className="post-author">
 										<i className="fa fa-calendar"></i>December 22, 2016
@@ -138,7 +139,7 @@ class SimpleSlider extends React.Component {
                                     <a href="blog-details.html">Ut wisi enim ad minim veniam</a></h2>
                                 <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                                     tincidunt ut </p>
-                                <a href="blog-details.html">read more</a>
+                                <NavLink to="/blog">read more history</NavLink>
                             </div>
                         </div>
                         <div className=" col-sm-12  carousel-item slick-slide">
@@ -146,7 +147,7 @@ class SimpleSlider extends React.Component {
                             <div className="post-info">
 									<span className="post-author">
 										<i className="fa fa-user" aria-hidden="true"></i>
-										<a href="#">jams</a>
+										<a href="#">OLGA</a>
 									</span>
                                 <span className="post-author">
 										<i className="fa fa-calendar"></i>December 22, 2016
@@ -160,7 +161,7 @@ class SimpleSlider extends React.Component {
                                     <a href="blog-details.html">Top features in our theme</a></h2>
                                 <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                                     tincidunt ut </p>
-                                <a href="blog-details.html">read more</a>
+                                <NavLink to="/blog">read more history</NavLink>
                             </div>
                         </div>
 
